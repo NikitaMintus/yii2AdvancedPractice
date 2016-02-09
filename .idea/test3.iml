@@ -2,6 +2,13 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/2amigos/yii2-ckeditor-widget" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower-asset/bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower-asset/jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower-asset/jquery.inputmask" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower-asset/punycode" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower-asset/typeahead.js" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower-asset/yii2-pjax" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower/bootstrap" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower/jquery" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower/jquery.inputmask" />
@@ -28,6 +35,13 @@
     <orderEntry type="module-library">
       <library name="PHP">
         <CLASSES>
+          <root url="file://$MODULE_DIR$/advanced/vendor/2amigos/yii2-ckeditor-widget" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/bootstrap" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/jquery" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/jquery.inputmask" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/punycode" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/typeahead.js" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/yii2-pjax" />
           <root url="file://$MODULE_DIR$/advanced/vendor/bower/bootstrap" />
           <root url="file://$MODULE_DIR$/advanced/vendor/bower/jquery" />
           <root url="file://$MODULE_DIR$/advanced/vendor/bower/jquery.inputmask" />
@@ -50,6 +64,13 @@
           <root url="file://$MODULE_DIR$/advanced/vendor/yiisoft/yii2-swiftmailer" />
         </CLASSES>
         <SOURCES>
+          <root url="file://$MODULE_DIR$/advanced/vendor/2amigos/yii2-ckeditor-widget" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/bootstrap" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/jquery" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/jquery.inputmask" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/punycode" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/typeahead.js" />
+          <root url="file://$MODULE_DIR$/advanced/vendor/bower-asset/yii2-pjax" />
           <root url="file://$MODULE_DIR$/advanced/vendor/bower/bootstrap" />
           <root url="file://$MODULE_DIR$/advanced/vendor/bower/jquery" />
           <root url="file://$MODULE_DIR$/advanced/vendor/bower/jquery.inputmask" />
