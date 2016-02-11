@@ -1,22 +1,22 @@
-<?php
+ <?php
 
 use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\models\BranchesSearch */
+/* @var $searchModel backend\models\CompaniesSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Branches';
+$this->title = 'Companies';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="branches-index">
+<div class="companies-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Branches', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Companies', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
@@ -24,15 +24,13 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-            [
-                'attribute' => 'companies_company_id',
-                'value' => 'companiesCompany.company_name'
-            ],
 
-            'branch_name',
-            'branch_adress',
-            'branch_created_date',
-            // 'branch_status',
+            //'company_id',
+            'company_name',
+            'company_email:email',
+            'company_adress',
+            'company_created_date',
+            // 'company_status',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
