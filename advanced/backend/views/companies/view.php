@@ -31,6 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'company_id',
             'company_name',
             'company_email:email',
+            'logo',
             'company_adress',
             'company_created_date',
             'company_status',
